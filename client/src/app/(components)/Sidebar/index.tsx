@@ -2,6 +2,7 @@
 import { useAppDispatch, useAppSelector } from '@/app/redux'
 import { setIsSidebarCollapsed } from '@/state'
 import { Archive, CircleDollarSign, Clipboard, Layout, LucideIcon, Menu, SlidersHorizontal, User } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -71,13 +72,21 @@ const Sidebar = () => {
     <div className={`flex gap-3 justify-between md:justify-normal items-center pt-8 ${
       isSidebarCollapsed ? "px-5" : "px-8"}`}
       >
-       <div>logo</div>
+       <div>
+       <Image
+                   src="https://static.vecteezy.com/system/resources/previews/008/296/267/non_2x/colorful-swirl-logo-design-concept-illustration-vector.jpg"
+                  alt="Logo"
+                  width={500}
+                  height={500}
+                className="rounded-full"
+              />
+       </div>
        <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          EDSTOCK
+          SmartInventory
         </h1>
       
        <button className='md:hidden px-3 py-3 bg-gray-100 rounded-full hover:bg-blue-100'
@@ -129,7 +138,9 @@ const Sidebar = () => {
          
          {/* FOOTER */}
          <div className={`${isSidebarCollapsed ? "hidden" : " block"} mb-10`}>
-          <p className='text-center, text-xs text-gray-500'>&copy; 2024 EDSTOCK</p>
+          <h5 className='text-center, text-l text-gray-600'>&copy; 2024 SmartInventory</h5>
+          <h6 className='text-center, text-m, text-gray-600'>By Aditya Dubey</h6>
+          <h6 className='text-center, text-med, text-gray-600'> All Right Reserved</h6>
          </div>
 
     </div>

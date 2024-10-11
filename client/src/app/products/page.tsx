@@ -7,6 +7,8 @@ import Header from "../Header";
 import Rating from "../(components)/Rating";
 // import Image from "next/image";
 import CreateProductModal from "./CreateProductModal";
+import Image from "next/image";
+// import Image from "next/image";
 
 type ProductFormData = {
     name: string;
@@ -78,15 +80,13 @@ const Products = () => {
               className="border shadow rounded-md p-4 max-w-full w-full mx-auto"
             >
               <div className="flex flex-col items-center">
-                {/* <Image
-                  src={`https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/product${
-                    Math.floor(Math.random() * 3) + 1
-                  }.png`}
-                  alt={product.name}
+                <Image
+                  src="https://img.vitkac.com/uploads/product_thumb/BUTY%20U990%200-GT4/up/1.png"
+                  alt="product image"
                   width={150}
                   height={150}
                   className="mb-3 rounded-2xl w-36 h-36"
-                /> */}
+                />
                 <h3 className="text-lg text-gray-900 font-semibold">
                   {product.name}
                 </h3>
