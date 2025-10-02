@@ -1,7 +1,7 @@
 # 📦 Inventory Management Dashboard
 
-> 🚀 A **Full-Stack Inventory Management Application** built with **Next.js, Redux Toolkit, Node.js, Prisma, PostgreSQL, TailwindCSS, MUI DataGrid & AWS Cloud**.
-> Manage products, track stock, and analyze insights — all in one modern dashboard.
+> 🚀 A **full-stack inventory management system built with Next.js, Redux Toolkit, Node.js, and AWS.
+This project provides a modern dashboard application for managing inventory with real-time data updates, scalable backend, and cloud integration.
 
 ---
 
@@ -50,19 +50,19 @@
 
 ![Inventory Table](./screenshots/s2.png)
 
-### 📈 Analytics & Reports
+### 👟 Products
 
 ![Analytics](./screenshots/s3.png)
 
-### 📝 Product Form
+### 👤 Users
 
 ![Form](./screenshots/s4.png)
 
-### 🔄 Stock Update
+### ⚙️ Settings
 
 ![Stock](./screenshots/s5.png)
 
-### ☁️ AWS Deployment
+### 💹 Expenses 
 
 ![AWS](./screenshots/s6.png)
 
@@ -150,11 +150,5 @@ npm run dev
 
 ---
 
-## 📝 License
-
-📜 Licensed under the **MIT License**
-
----
-
-💡 *Made with ❤️ using Next.js, Redux, Node.js, Prisma, PostgreSQL & AWS*
+💡 *Made with ❤️ by Aditya Kumar Dubey using Next.js, Redux, Node.js, Prisma, PostgreSQL & AWS*
 
